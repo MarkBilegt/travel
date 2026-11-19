@@ -50,3 +50,13 @@ Thumbs.db
 
 # Photos downloaded from the old site (large; re-create with scripts/old-site/download-images.py)
 /import/
+
+# Local notes and AI-assistant files (not part of the website)
+/.codex/
+/.claude/
+/AGENTS.md
+/CLAUDE.md
+/ADMIN-GUIDE.md
+/LAUNCH.md
+/PLAN.md
+/README.md
