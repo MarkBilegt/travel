@@ -1,0 +1,63 @@
+{
+  "name": "travel-agency",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint",
+    "typecheck": "tsc --noEmit",
+    "test": "node --test tests/",
+    "check": "npm run typecheck && npm run lint && npm test",
+    "email": "email dev --dir src/emails --port 3001",
+    "seed:tours": "node scripts/seed-tours.mts",
+    "redirects:old-site": "node scripts/old-site/generate-redirects.mts",
+    "import:old-site": "node scripts/import-old-site.mts",
+    "preflight": "node scripts/preflight.mts",
+    "db:bundle": "node scripts/bundle-sql.mts"
+  },
+  "dependencies": {
+    "@hookform/resolvers": "^3.10.0",
+    "@radix-ui/react-accordion": "^1.2.12",
+    "@react-email/components": "^1.0.12",
+    "@react-email/render": "^2.0.8",
+    "@supabase/ssr": "^0.10.3",
+    "@supabase/supabase-js": "^2.105.4",
+    "@tanstack/react-query": "^5.100.10",
+    "clsx": "^2.1.1",
+    "framer-motion": "^12.38.0",
+    "jose": "^6.2.3",
+    "lucide-react": "^0.577.0",
+    "next": "^16.2.6",
+    "next-intl": "^4.12.0",
+    "react": "^19.2.6",
+    "react-dom": "^19.2.6",
+    "react-hook-form": "^7.76.0",
+    "recharts": "^3.8.1",
+    "resend": "^6.12.3",
+    "sharp": "^0.34.5",
+    "sonner": "^2.0.7",
+    "tailwind-merge": "^3.6.0",
+    "zod": "^4.4.3"
+  },
+  "devDependencies": {
+    "@react-email/preview-server": "^5.2.11",
+    "@tailwindcss/postcss": "^4.3.0",
+    "@types/node": "^20.19.41",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "babel-plugin-react-compiler": "1.0.0",
+    "eslint": "^9",
+    "eslint-config-next": "^16.2.6",
+    "react-email": "^5.2.11",
+    "tailwindcss": "^4.3.0",
+    "typescript": "^5"
+  },
+  "overrides": {
+    "postcss": "^8.5.14"
+  },
+  "engines": {
+    "node": ">=22.18"
+  }
+}

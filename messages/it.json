@@ -1,0 +1,956 @@
+{
+  "nav": {
+    "home": "Home",
+    "tours": "Viaggi",
+    "services": "Servizi",
+    "about": "Chi siamo",
+    "contact": "Contatti",
+    "bookNow": "Richiedi un preventivo",
+    "openMenu": "Apri il menu",
+    "closeMenu": "Chiudi il menu",
+    "allTours": "Tutti i viaggi",
+    "userMenu": "Menu utente",
+    "adminPanel": "Pannello admin",
+    "departures": "Partenze di gruppo",
+    "info": "Info utili",
+    "blog": "Blog",
+    "gallery": "Foto"
+  },
+  "hero": {
+    "slides": [
+      {
+        "headline": "Meraviglie\ndel Gobi",
+        "subtitle": "Attraversa il leggendario deserto del Gobi e scopri i suoi tesori nascosti",
+        "location": "Deserto del Gobi, Mongolia"
+      },
+      {
+        "headline": "Il paradiso\ndi Khuvsgul",
+        "subtitle": "Riposa sulle acque cristalline del mare della Mongolia: il lago Khuvsgul",
+        "location": "Lago Khuvsgul, Mongolia"
+      },
+      {
+        "headline": "Vette\ndell'Altai",
+        "subtitle": "Percorri i monti Altai della Mongolia e scopri la cultura nomade kazaka",
+        "location": "Monti Altai, Mongolia"
+      },
+      {
+        "headline": "Viaggio\nnomade",
+        "subtitle": "Vivi dall'interno l'autentico stile di vita dei nomadi mongoli",
+        "location": "Valle dell'Orkhon, Mongolia"
+      },
+      {
+        "headline": "Abbraccio\ndella natura",
+        "subtitle": "Immergiti nella natura incontaminata della Mongolia e ritrova la pace interiore",
+        "location": "Terelj, Mongolia"
+      }
+    ],
+    "book": "Scopri il viaggio",
+    "allTours": "Tutti i viaggi",
+    "prevSlide": "Slide precedente",
+    "nextSlide": "Slide successiva",
+    "duration": "{days, plural, one {# giorno} other {# giorni}} {nights, plural, one {# notte} other {# notti}}",
+    "startingFrom": "da {price}",
+    "emptyMessage": "Nuovi viaggi in arrivo",
+    "emptyAction": "Vedi i viaggi",
+    "upNext": "Viaggi in evidenza",
+    "pause": "Pausa",
+    "play": "Riproduci",
+    "details": "Dettagli",
+    "scroll": "Scorri verso il basso"
+  },
+  "stats": {
+    "founded": "Fondata nel",
+    "regions": "Regioni",
+    "perDay": "Da, a persona al giorno",
+    "commitments": "Impegni per un turismo equo"
+  },
+  "featuredTours": {
+    "label": "Viaggi in evidenza",
+    "title": "Viaggi più richiesti",
+    "viewAll": "Vedi tutti i viaggi",
+    "book": "Prenota",
+    "view": "Vedi",
+    "days": "{count, plural, one {# giorno} other {# giorni}}",
+    "categories": {
+      "adventure": "Avventura",
+      "cultural": "Cultura",
+      "nature": "Natura",
+      "luxury": "Lusso",
+      "family": "Famiglia"
+    },
+    "description": "Gli itinerari che il nostro team consiglia di più e quelli a cui i nostri viaggiatori tornano sempre.",
+    "from": "da"
+  },
+  "destinations": {
+    "label": "Destinazioni",
+    "title": "Le meraviglie della Mongolia",
+    "items": [
+      "Deserto del Gobi",
+      "Lago Khuvsgul",
+      "Monti Altai",
+      "Valle dell'Orkhon",
+      "Terelj",
+      "Lago Uvs"
+    ]
+  },
+  "whyUs": {
+    "label": "Perché sceglierci",
+    "title": "Un modo diverso di organizzare viaggi",
+    "features": [
+      {
+        "title": "Di proprietà dei soci",
+        "description": "Gli utili sono condivisi tra i soci della cooperativa invece di lasciare il Paese."
+      },
+      {
+        "title": "Equi con la gente del posto",
+        "description": "Paghiamo il giusto autisti, cuochi, guide e famiglie di allevatori e lavoriamo con piccole attività locali."
+      },
+      {
+        "title": "Vita nomade autentica",
+        "description": "Soggiorna con famiglie di allevatori, nei campi di ger e in luoghi che la maggior parte degli itinerari non raggiunge."
+      },
+      {
+        "title": "Pianificazione su misura",
+        "description": "Dicci date e interessi e costruiremo insieme a te l'itinerario."
+      }
+    ],
+    "description": "Siamo una cooperativa: chi ti accompagna è anche proprietario dell'attività.",
+    "cta": "La nostra storia"
+  },
+  "bookingCTA": {
+    "label": "Inizia il tuo viaggio",
+    "title": "Organizza il tuo viaggio in Mongolia",
+    "description": "Dicci quando vorresti partire e cosa vuoi vedere. Ti risponderemo con un itinerario e un prezzo, senza impegno.",
+    "bookNow": "Richiedi un preventivo",
+    "viewTours": "Vedi i viaggi",
+    "or": "oppure",
+    "call": "Chiamaci",
+    "messenger": "Scrivici su WhatsApp"
+  },
+  "footer": {
+    "description": "Una cooperativa di viaggi mongola. Viaggi nella steppa, nel Gobi e sulle montagne, organizzati da persone del posto.",
+    "links": "Link rapidi",
+    "destinations": "Destinazioni",
+    "contact": "Contatti",
+    "admin": "Admin",
+    "rights": "Tutti i diritti riservati.",
+    "ctaTitle": "Organizziamo insieme il tuo prossimo viaggio",
+    "ctaButton": "Contattaci",
+    "madeBy": "Realizzato da",
+    "privacy": "Privacy",
+    "terms": "Termini",
+    "legalLine": "Dati societari: [numero di registrazione] · [partita IVA / codice fiscale]"
+  },
+  "about": {
+    "heroLabel": "Chi siamo",
+    "heroLine1": "Una cooperativa",
+    "heroLine2": "di ospiti",
+    "heroLine3": "mongoli",
+    "heroDescription": "Siamo una cooperativa di persone che organizzano viaggi in Mongolia e dividono i ricavi in modo più equo.",
+    "storyLabel": "La nostra storia",
+    "storyTitle1": "Un viaggio che",
+    "storyTitle2": "resta locale",
+    "experienceLabel": "fondata nel",
+    "story1": "Sain Sanaa nasce da un’idea di Alfredo Savino, membro storico dell’Associazione Soyombo, docente di lingua italiana all’Università Nazionale della Mongolia e organizzatore di viaggi: creare una cooperativa di persone che organizzano viaggi in Mongolia per ridistribuire più equamente le risorse che ogni estate arrivano con il turismo.",
+    "story2": "Negli ultimi anni la Mongolia vive un boom del turismo, ma la ricchezza va a vantaggio di poche agenzie che, per essere competitive, pagano salari molto bassi a chi permette davvero al turista di visitare il Paese. Sain Sanaa sceglie una strada nuova e controcorrente: servizi migliori e più equità.",
+    "story3": "Ogni socio mette a disposizione conoscenze e abilità per tracciare itinerari sempre nuovi e poco battuti. Così i viaggiatori incontrano una Mongolia più vera, fuori dai circuiti turistici classici, e aiutano anche le realtà più isolate e lontane.",
+    "milestones": [
+      {
+        "year": "2014",
+        "label": "I primi itinerari pubblicati online"
+      },
+      {
+        "year": "2015",
+        "label": "Il fondatore diventa il primo console onorario d’Italia in Mongolia"
+      }
+    ],
+    "valuesLabel": "La nostra missione",
+    "valuesTitle1": "Un turismo che",
+    "valuesTitle2": "fa bene",
+    "valuesTitle3": "alla gente del posto",
+    "valuesMission": "Accogliere i viaggiatori in Mongolia in modo che il guadagno resti nel Paese e sia condiviso con equità tra le persone che rendono possibile ogni viaggio.",
+    "valuesVisionLabel": "La nostra visione",
+    "valuesVision": "Far conoscere al mondo i paesaggi e le tradizioni vive della Mongolia, sostenendo le comunità che se ne prendono cura.",
+    "missionValues": [
+      {
+        "title": "Equità",
+        "desc": "Gli utili sono divisi in parti uguali tra i soci e i fornitori locali sono pagati il giusto."
+      },
+      {
+        "title": "Prima il locale",
+        "desc": "Lavoriamo con piccole attività locali, famiglie di allevatori e pensioni comunitarie."
+      },
+      {
+        "title": "Rispetto",
+        "desc": "Viaggiamo con delicatezza, rispettando la natura, i monasteri e le persone che incontriamo."
+      },
+      {
+        "title": "Restituire",
+        "desc": "Una parte della nostra quota sostiene progetti locali e l'istruzione."
+      }
+    ],
+    "whyLabel": "Perché noi",
+    "whyTitle": "Perché viaggiare con noi",
+    "whyFeatures": [
+      {
+        "title": "Guide locali",
+        "desc": "Guide e autisti mongoli che conoscono ogni percorso"
+      },
+      {
+        "title": "Piccoli gruppi",
+        "desc": "Viaggi tranquilli e personali, non pullman affollati"
+      },
+      {
+        "title": "Prezzi chiari",
+        "desc": "Ricevi un'offerta scritta prima di pagare qualsiasi cosa"
+      },
+      {
+        "title": "Notti nomadi",
+        "desc": "Notti con famiglie di allevatori e in ger tradizionali"
+      },
+      {
+        "title": "Itinerari flessibili",
+        "desc": "Adattiamo il programma al tuo ritmo e ai tuoi interessi"
+      },
+      {
+        "title": "Prima la sicurezza",
+        "desc": "Veicoli 4x4, autisti esperti e un contatto per le emergenze"
+      }
+    ],
+    "valuesStats": [
+      {
+        "value": 7,
+        "label": "Regioni"
+      },
+      {
+        "value": 100,
+        "suffix": "%",
+        "label": "Utili condivisi"
+      },
+      {
+        "value": 100,
+        "suffix": "%",
+        "label": "Fornitori locali"
+      },
+      {
+        "value": 1,
+        "label": "Cooperativa"
+      }
+    ],
+    "teamLabel": "Il nostro team",
+    "teamTitle": "Conosci il team",
+    "team": [
+      {
+        "name": "Membro del team",
+        "role": "Presidente della cooperativa",
+        "bio": "Breve presentazione del membro del team."
+      },
+      {
+        "name": "Membro del team",
+        "role": "Responsabile viaggi",
+        "bio": "Breve presentazione del membro del team."
+      },
+      {
+        "name": "Membro del team",
+        "role": "Guida principale",
+        "bio": "Breve presentazione del membro del team."
+      },
+      {
+        "name": "Membro del team",
+        "role": "Accoglienza ospiti",
+        "bio": "Breve presentazione del membro del team."
+      }
+    ]
+  },
+  "contact": {
+    "heroLabel": "Contatti",
+    "heroTitle1": "Mettiti in",
+    "heroTitle2": "contatto",
+    "heroSubtitle": "Domande, prenotazioni, consigli: siamo qui per te.",
+    "mapTitle": "Dove siamo",
+    "infoLabel": "Contattaci",
+    "infoTitle": "Mettiti in contatto",
+    "infoCards": [
+      {
+        "label": "Telefono",
+        "primary": "+976 9586 8948",
+        "secondary": "Viber, WhatsApp e WeChat",
+        "href": "tel:+97695868948"
+      },
+      {
+        "label": "E-mail",
+        "primary": "sainsanaaviaggi@gmail.com",
+        "secondary": "Per informazioni e preventivi",
+        "href": "mailto:sainsanaaviaggi@gmail.com"
+      },
+      {
+        "label": "Dove siamo",
+        "primary": "Ulaanbaatar, Mongolia",
+        "secondary": "Incontri su appuntamento",
+        "href": null
+      },
+      {
+        "label": "Risposta",
+        "primary": "Entro 1–2 giorni lavorativi",
+        "secondary": "Ora della Mongolia: 6–7 ore avanti rispetto all’Italia",
+        "href": null
+      }
+    ],
+    "quickLabel": "Contatto rapido",
+    "quickTitle": "Canali rapidi",
+    "quickActions": [
+      {
+        "title": "WhatsApp",
+        "desc": "Scrivici direttamente"
+      },
+      {
+        "title": "Viber",
+        "desc": "Scrivici su Viber"
+      },
+      {
+        "title": "E-mail",
+        "desc": "Per informazioni e preventivi"
+      },
+      {
+        "title": "Richiedi una chiamata",
+        "desc": "Ti richiamiamo noi"
+      }
+    ],
+    "socialTitle": "Social media",
+    "form": {
+      "label": "Richiedi un preventivo",
+      "title": "Raccontaci il tuo viaggio",
+      "signupLabel": "Partenza di gruppo",
+      "signupTitle": "Richiedi un posto",
+      "signupSpots": "Posti ancora disponibili: {count}",
+      "name": "Nome",
+      "namePlaceholder": "Nome e cognome",
+      "email": "E-mail",
+      "phone": "Telefono",
+      "country": "Paese",
+      "optional": "facoltativo",
+      "tour": "Viaggio di interesse",
+      "tourNone": "Non ancora deciso / viaggio su misura",
+      "from": "Dal",
+      "to": "Al",
+      "flexible": "Le mie date sono flessibili",
+      "adults": "Adulti",
+      "children": "Bambini",
+      "budget": "Budget al giorno a persona",
+      "interests": "Cosa ti interessa",
+      "accommodation": "Dove preferisci dormire",
+      "accommodationAny": "Nessuna preferenza",
+      "message": "Messaggio",
+      "messagePlaceholder": "Raccontaci cosa sogni: periodo, ritmo, richieste particolari...",
+      "signupMessagePlaceholder": "Eventuali richieste o domande",
+      "privacyNote": "Usiamo i tuoi dati solo per rispondere alla tua richiesta. Non devi pagare nulla adesso.",
+      "submit": "Invia richiesta",
+      "submitSignup": "Richiedi il posto",
+      "submitting": "Invio in corso...",
+      "successTitle": "Richiesta ricevuta!",
+      "successDescription": "Ti abbiamo inviato una e-mail di conferma. Ti risponderemo con un’offerta entro 1–2 giorni lavorativi.",
+      "successSignupTitle": "Richiesta di posto ricevuta!",
+      "successSignupDescription": "Ti abbiamo inviato una e-mail di conferma. Il posto sarà confermato dopo la nostra risposta; non devi pagare nulla adesso.",
+      "submitError": "Qualcosa è andato storto. Scrivici direttamente per e-mail.",
+      "fullError": "Questa partenza non ha abbastanza posti liberi per il tuo gruppo. Scrivici e troveremo una soluzione.",
+      "errors": {
+        "nameMin": "Il nome deve avere almeno 2 caratteri",
+        "emailInvalid": "Indirizzo e-mail non valido"
+      },
+      "privacyLink": "Informativa sulla privacy"
+    },
+    "faq": {
+      "label": "Domande frequenti",
+      "title": "Domande frequenti",
+      "sections": [
+        {
+          "section": "Prenotazione e pagamento",
+          "items": [
+            {
+              "q": "Come si prenota?",
+              "a": "Inviaci una richiesta con le tue date e i tuoi interessi. Ti rispondiamo con un itinerario e un'offerta scritta. Quando accetti, confermiamo la prenotazione e ti inviamo i dati per il pagamento."
+            },
+            {
+              "q": "Come si paga?",
+              "a": "Non c'è pagamento online. Dopo che accetti l'offerta scritta ti inviamo per e-mail i dati per il bonifico bancario e la causale da usare."
+            },
+            {
+              "q": "Quando va pagato il saldo?",
+              "a": "Le scadenze di acconto e saldo sono indicate nella tua offerta scritta. [Bozza: da confermare da parte della cooperativa.]"
+            },
+            {
+              "q": "Quanti partecipanti ci sono nei gruppi?",
+              "a": "Piccoli gruppi, di solito da 2 persone. Ogni pagina di viaggio indica la dimensione del gruppo. Organizziamo anche viaggi privati."
+            }
+          ]
+        },
+        {
+          "section": "Cancellazioni e modifiche",
+          "items": [
+            {
+              "q": "Posso annullare la prenotazione?",
+              "a": "Sì. Il rimborso dipende da quanto prima annulli e le condizioni sono scritte nella tua offerta. [Bozza: da confermare.]"
+            },
+            {
+              "q": "Posso cambiare le date?",
+              "a": "Di solito sì, se c'è disponibilità. Scrivici il prima possibile."
+            },
+            {
+              "q": "E se siete voi ad annullare il viaggio?",
+              "a": "Se dovessimo annullare, offriamo il rimborso completo o un viaggio alternativo."
+            }
+          ]
+        },
+        {
+          "section": "Documenti e preparazione",
+          "items": [
+            {
+              "q": "Mi serve il visto?",
+              "a": "Dipende dalla tua nazionalità e le regole cambiano. Ti invieremo informazioni aggiornate e, se serve, una lettera di invito. Verifica anche presso l'ambasciata della Mongolia."
+            },
+            {
+              "q": "Quanto deve essere valido il passaporto?",
+              "a": "Di solito almeno sei mesi oltre le date del viaggio. Controlla prima di prenotare i voli."
+            },
+            {
+              "q": "Serve l'assicurazione di viaggio?",
+              "a": "Consigliamo vivamente un'assicurazione che copra le cure mediche e l'evacuazione, perché alcune regioni sono lontane dagli ospedali."
+            }
+          ]
+        },
+        {
+          "section": "Durante il viaggio",
+          "items": [
+            {
+              "q": "Avrò una guida?",
+              "a": "Sì. I viaggi sono accompagnati da una guida che parla inglese e da un autista. Altre lingue possono essere possibili su richiesta."
+            },
+            {
+              "q": "Posso contattare qualcuno in caso di emergenza?",
+              "a": "Sì. La tua guida e il nostro team sono raggiungibili per tutto il viaggio e prima della partenza ti diamo i contatti di emergenza."
+            },
+            {
+              "q": "Cosa devo mettere in valigia?",
+              "a": "Il tempo in Mongolia cambia rapidamente. Con la conferma ti inviamo una lista di cosa portare."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "services": {
+    "heroLabel": "I nostri servizi",
+    "heroTitle1": "Viaggi attraverso",
+    "heroTitle2": "la Mongolia",
+    "heroDescription": "Viaggi su misura, partenze speciali ed esperienze con le famiglie nomadi, organizzati da una cooperativa locale.",
+    "mainLabel": "I nostri servizi",
+    "mainTitle1": "Come",
+    "mainTitle2": "possiamo aiutarti",
+    "otherLabel": "Altro",
+    "otherTitle": "Servizi aggiuntivi",
+    "main": [
+      {
+        "category": "Viaggi su misura",
+        "subtitle": "Per tutte le esigenze e per tutte le tasche",
+        "items": [
+          "Itinerari personalizzati, dai pochi giorni a oltre tre settimane",
+          "Percorsi sempre nuovi e poco battuti, tracciati dai soci",
+          "Costo indicativo da 70 a 150 € al giorno a persona",
+          "Il prezzo dipende dai servizi, dal mezzo, dal numero di persone e dal tipo di pernottamento"
+        ]
+      },
+      {
+        "category": "Partenze speciali e festival",
+        "subtitle": "Eventi, trekking e spedizioni",
+        "items": [
+          "Festival del Naadam e delle aquile nel Bayan Ölgii",
+          "Festival invernali del ghiaccio, delle aquile e dei cammelli",
+          "Trekking a cavallo dagli Tsaatan, allevatori di renne della taiga",
+          "Altai: tra i nomadi kazaki e fino alle montagne del Tavan Bogd"
+        ]
+      },
+      {
+        "category": "Esperienze autentiche",
+        "subtitle": "Incontra chi vive in Mongolia",
+        "items": [
+          "Notti con famiglie nomadi nelle gher",
+          "Soggiorno nei monasteri di campagna",
+          "Escursioni a cavallo e a piedi",
+          "Musica, tradizioni e cucina locali"
+        ]
+      }
+    ],
+    "others": [
+      {
+        "title": "Treni e voli",
+        "desc": "La cooperativa può acquistare tutti i biglietti nazionali e internazionali in partenza dalla Mongolia."
+      },
+      {
+        "title": "Tour di un giorno",
+        "desc": "Ulaanbaatar e il monastero di Manzushir con la vetta sacra Tsetsguun."
+      },
+      {
+        "title": "Cerco compagni di viaggio",
+        "desc": "Annunci per formare o ampliare il gruppo, aperti a privati e ad agenzie."
+      },
+      {
+        "title": "Visto e documenti",
+        "desc": "Ti spieghiamo la procedura per il visto e i documenti da preparare."
+      },
+      {
+        "title": "Assicurazione di viaggio",
+        "desc": "Consigli sull’assicurazione sanitaria di viaggio per la Mongolia."
+      },
+      {
+        "title": "Soci e collaboratori locali",
+        "desc": "Guide, autisti e cuochi soci della cooperativa, e collaboratori locali pagati in modo più equo."
+      }
+    ]
+  },
+  "tours": {
+    "loading": "Caricamento...",
+    "notFound": "Viaggio non trovato",
+    "heroLabel": "Catalogo dei viaggi",
+    "heroTitle1": "Trova il tuo",
+    "heroTitle2": "viaggio in Mongolia",
+    "resultsCount": "{count} viaggi trovati",
+    "loadMore": "Mostra altri {remaining} viaggi",
+    "clearAllFilters": "Cancella tutto",
+    "featured": "In evidenza",
+    "new": "Novità",
+    "perPerson": "Prezzo a persona",
+    "details": "Vedi i dettagli",
+    "book": "Scopri il viaggio",
+    "days": "{count, plural, one {# giorno} other {# giorni}}",
+    "people": "persone",
+    "nights": "notti",
+    "categories": {
+      "adventure": "Avventura",
+      "cultural": "Cultura",
+      "nature": "Natura",
+      "luxury": "Lusso",
+      "family": "Famiglia"
+    },
+    "difficulty": {
+      "easy": "Facile",
+      "moderate": "Media",
+      "challenging": "Impegnativa"
+    },
+    "breadcrumbHome": "Home",
+    "breadcrumbTours": "Viaggi",
+    "durationLabel": "Durata",
+    "groupLabel": "Gruppo",
+    "tabs": {
+      "overview": "Panoramica",
+      "itinerary": "Itinerario",
+      "inclusions": "Incluso / Escluso",
+      "hotels": "Alloggi",
+      "map": "Mappa",
+      "reviews": "Recensioni"
+    },
+    "overviewTitle": "Il viaggio",
+    "highlightsTitle": "Punti salienti",
+    "noHotelInfo": "Nessuna informazione sugli alloggi.",
+    "similarLabel": "Simili a questo",
+    "similarTitle": "Viaggi simili",
+    "emptyTitle": "Nessun viaggio trovato",
+    "emptyDescription": "Prova a cambiare i filtri e a cercare di nuovo.",
+    "clearFilters": "Cancella i filtri",
+    "featuredTour": "Viaggio in evidenza",
+    "includedTitle": "Incluso",
+    "excludedTitle": "Non incluso",
+    "activeDay": "Giorno di attività",
+    "itineraryDay": "Giorno {day}",
+    "photos": "foto",
+    "reviewsComing": "Le recensioni arriveranno presto",
+    "reviewsPrompt": "Condividi la tua recensione dopo il viaggio.",
+    "sort": {
+      "default": "Ordine predefinito",
+      "priceAsc": "Prezzo: dal più basso",
+      "priceDesc": "Prezzo: dal più alto",
+      "durationAsc": "Durata: dalla più breve",
+      "durationDesc": "Durata: dalla più lunga"
+    },
+    "filters": {
+      "destination": "Regione",
+      "duration": "Durata",
+      "price": "Prezzo",
+      "category": "Categoria",
+      "search": "Cerca",
+      "allDestinations": "Tutte le regioni",
+      "allDurations": "Tutte le durate",
+      "allPrices": "Tutti i prezzi",
+      "allCategories": "Tutte le categorie",
+      "duration1to5": "1–5 giorni",
+      "duration6to10": "6–10 giorni",
+      "duration11plus": "11+ giorni",
+      "durationPill_1-5": "1–5 giorni",
+      "durationPill_6-10": "6–10 giorni",
+      "durationPill_11+": "11+ giorni",
+      "allRegions": "Tutte",
+      "priceLow": "Sotto 1.000 €",
+      "priceMid": "1.000–2.000 €",
+      "priceHigh": "Oltre 2.000 €",
+      "pricePill_0-1000": "Sotto 1.000 €",
+      "pricePill_1000-2000": "1.000–2.000 €",
+      "pricePill_2000+": "Oltre 2.000 €",
+      "season": "Mese di viaggio",
+      "allSeasons": "Qualsiasi mese",
+      "activity": "Attività",
+      "allActivities": "Qualsiasi attività",
+      "type": "Tipo di viaggio",
+      "allTypes": "Privato o di gruppo",
+      "difficulty": "Difficoltà",
+      "allDifficulties": "Qualsiasi livello",
+      "moreFilters": "Più filtri",
+      "fewerFilters": "Meno filtri"
+    },
+    "regionLabels": {
+      "ulaanbaatar": "Ulaanbaatar",
+      "central": "Mongolia centrale",
+      "gobi": "Deserto del Gobi",
+      "khangai": "Khangai e Valle dell'Orkhon",
+      "khuvsgul": "Khuvsgul",
+      "altai": "Altai e Mongolia occidentale",
+      "east": "Steppa orientale"
+    },
+    "regionLabel": "Regione",
+    "difficultyLabel": "Difficoltà",
+    "typeLabels": {
+      "private": "Privato",
+      "group": "Di gruppo",
+      "both": "Privato o di gruppo"
+    },
+    "activities": {
+      "horse_riding": "Cavallo",
+      "hiking": "Trekking",
+      "camel_trek": "Cammelli",
+      "eagle_hunters": "Cacciatori con l'aquila",
+      "nomad_life": "Vita nomade",
+      "monasteries": "Monasteri",
+      "stargazing": "Cielo stellato",
+      "photography": "Fotografia",
+      "festivals": "Festival",
+      "wildlife": "Fauna selvatica"
+    },
+    "accommodationLabels": {
+      "hotel": "Hotel",
+      "guesthouse": "Pensione",
+      "ger_camp": "Campo di ger",
+      "tent": "Tenda",
+      "nomad_family": "Famiglia nomade",
+      "monastery": "Monastero"
+    },
+    "vehicles": {
+      "jeep_4x4": "Fuoristrada 4x4",
+      "minivan": "Minivan",
+      "mixed": "Misto"
+    },
+    "accommodationFact": "Alloggio",
+    "vehicleFact": "Trasporto",
+    "seasonFact": "Stagione",
+    "tourTypeFact": "Tipo di viaggio",
+    "allYear": "Tutto l'anno",
+    "priceOnRequest": "Su richiesta",
+    "priceFrom": "da {price}",
+    "perPersonPerDay": "Prezzo a persona al giorno",
+    "pricePerPersonTrip": "Prezzo a persona",
+    "singleSupplement": "Supplemento camera singola",
+    "priceTiersTitle": "Prezzo in base al gruppo",
+    "tierExact": "{n, plural, one {# persona} other {# persone}}",
+    "tierRange": "{min}–{max} persone",
+    "tierOpen": "{min}+ persone",
+    "overnight": "Pernottamento: {where}",
+    "requestQuote": "Richiedi un preventivo",
+    "onRequestNote": "Questo viaggio è a prezzo su richiesta. Dicci date e numero di persone e ti invieremo un'offerta.",
+    "departuresTitle": "Partenze di gruppo",
+    "departuresNone": "Non ci sono ancora partenze di gruppo in programma. Chiedici le date per un viaggio privato."
+  },
+  "meta": {
+    "home": {
+      "title": "Viaggi in Mongolia con ospiti locali",
+      "description": "Una cooperativa di viaggi mongola che propone tour guidati, soggiorni nomadi e viaggi su misura nel Gobi, nella steppa e sulle montagne."
+    },
+    "tours": {
+      "title": "Viaggi",
+      "description": "Viaggi guidati in Mongolia: il Gobi, il Khuvsgul, l'Altai, la Valle dell'Orkhon e altro."
+    },
+    "about": {
+      "title": "Chi siamo",
+      "description": "Una cooperativa di ospiti mongoli che condivide i benefici del turismo con le comunità locali."
+    },
+    "services": {
+      "title": "Servizi",
+      "description": "Viaggi di gruppo, viaggi privati ed esperienze culturali in Mongolia."
+    },
+    "contact": {
+      "title": "Contatti",
+      "description": "Contattaci per organizzare il tuo viaggio in Mongolia."
+    },
+    "departures": {
+      "title": "Partenze di gruppo",
+      "description": "Prossimi viaggi di gruppo in Mongolia con date fisse e un gruppo minimo garantito."
+    },
+    "info": {
+      "title": "Informazioni utili per il viaggio in Mongolia",
+      "description": "Visto, assicurazione, voli, clima, salute e consigli pratici per il tuo viaggio in Mongolia."
+    },
+    "culture": {
+      "title": "Cultura e storia della Mongolia",
+      "description": "Storia, tradizioni e vita nomade della Mongolia."
+    }
+  },
+  "recentlyAddedTours": {
+    "label": "Nuovi viaggi",
+    "title": "Aggiunti di recente",
+    "viewAll": "Vedi tutti i viaggi"
+  },
+  "gallery": {
+    "label": "Ricordi",
+    "title": "Galleria fotografica",
+    "images": [
+      "Falesie rosse nel Gobi",
+      "Cacciatori con l'aquila nell'Altai",
+      "Lago Khuvsgul",
+      "Cavallo bianco sulla steppa",
+      "Ger sotto le montagne",
+      "Notte stellata sul ger",
+      "Statua di Gengis Khan"
+    ],
+    "description": "Il mondo visto con gli occhi dei nostri viaggiatori.",
+    "follow": "Seguici su Instagram",
+    "metaTitle": "Foto della Mongolia",
+    "metaDescription": "Le foto dei nostri viaggi in Mongolia: Gobi, steppa, laghi, montagne e vita nomade.",
+    "heroLabel": "Fotografie",
+    "heroTitle1": "La Mongolia in",
+    "heroTitle2": "immagini",
+    "all": "Tutte",
+    "viewAll": "Tutte le foto",
+    "empty": "Le foto arriveranno presto.",
+    "close": "Chiudi",
+    "prev": "Foto precedente",
+    "next": "Foto successiva",
+    "categories": {
+      "central": "Mongolia centrale",
+      "west": "Mongolia occidentale",
+      "ulaanbaatar": "Ulaanbaatar",
+      "gobi": "Gobi",
+      "khangai": "Khangai e Orkhon",
+      "khuvsgul": "Khuvsgul",
+      "altai": "Altai",
+      "people": "Gente e nomadi",
+      "festivals": "Feste e festival",
+      "other": "Altre foto"
+    }
+  },
+  "bookingCard": {
+    "pricePerPerson": "Prezzo a persona",
+    "passengers": "Numero di viaggiatori",
+    "adults": "Adulti",
+    "adultsAge": "13+ anni",
+    "children": "Bambini",
+    "childrenAge": "2–12 anni (sconto 30%)",
+    "trust": "Risposta entro 1–2 giorni lavorativi",
+    "estimateLabel": "Stima",
+    "estimateNote": "Stima indicativa: l’offerta scritta può variare con date, stagione e servizi scelti.",
+    "noPayment": "Nessun pagamento online: ti inviamo un’offerta scritta e, quando accetti, i dati per il bonifico."
+  },
+  "partners": {
+    "label": "Partnership",
+    "title": "I nostri partner",
+    "description": "Lavoriamo insieme a organizzazioni di primo piano in Mongolia e nel mondo",
+    "count": "{count}+ organizzazioni con cui lavoriamo"
+  },
+  "impact": {
+    "label": "I nostri impegni",
+    "title": "Dove vanno i tuoi soldi",
+    "description": "Gli obiettivi della cooperativa, tratti dalla sua presentazione.",
+    "items": [
+      {
+        "title": "Utili divisi in parti uguali",
+        "desc": "I ricavi dei viaggi vengono divisi in parti uguali tra i soci, che siano guide, autisti o cuochi, mongoli o stranieri."
+      },
+      {
+        "title": "I ricavi restano nel Paese",
+        "desc": "Non portiamo fuori dalla Mongolia i ricavi del turismo."
+      },
+      {
+        "title": "Compensi più equi",
+        "desc": "Paghiamo in modo più equo i collaboratori locali che non sono soci."
+      },
+      {
+        "title": "Piccole realtà locali",
+        "desc": "Favoriamo le piccole realtà imprenditoriali del posto."
+      },
+      {
+        "title": "Un aiuto concreto",
+        "desc": "Il soggiorno del viaggiatore diventa un mezzo concreto di aiuto per chi vive in Mongolia."
+      },
+      {
+        "title": "Progetti di aiuto",
+        "desc": "Una parte della quota di partecipazione di ogni viaggiatore va a progetti di aiuto."
+      },
+      {
+        "title": "Studenti di italiano",
+        "desc": "Aiutiamo gli studenti mongoli meritevoli che studiano l’italiano ad avere esperienze formative."
+      },
+      {
+        "title": "Notti nei monasteri",
+        "desc": "Si può soggiornare nei monasteri di campagna, aiutando queste piccole realtà e conoscendo da vicino un aspetto fondamentale della cultura mongola."
+      },
+      {
+        "title": "Il vero al giusto prezzo",
+        "desc": "Offriamo il vero al giusto prezzo, senza fronzoli."
+      }
+    ]
+  },
+  "departures": {
+    "label": "Partenze di gruppo",
+    "title": "Unisciti a un viaggio di gruppo",
+    "description": "Date fisse con un gruppo minimo garantito. Unisciti a una partenza e viaggia con persone che condividono i tuoi interessi.",
+    "heroLabel": "Calendario",
+    "heroTitle1": "Partenze",
+    "heroTitle2": "di gruppo",
+    "empty": "Al momento non ci sono partenze in programma. Contattaci per organizzare un viaggio privato.",
+    "allTours": "Tutti i viaggi",
+    "status": {
+      "open": "Aperta",
+      "confirmed": "Confermata",
+      "full": "Al completo",
+      "cancelled": "Annullata"
+    },
+    "joined": "{enrolled} iscritti su {max}",
+    "spotsLeft": "{count, plural, one {# posto disponibile} other {# posti disponibili}}",
+    "needed": "{count, plural, one {# iscrizione in più per confermare} other {# iscrizioni in più per confermare}}",
+    "guaranteed": "Partenza garantita",
+    "requestSpot": "Richiedi un posto",
+    "viewTrip": "Vedi il viaggio",
+    "days": "{count} giorni",
+    "fromPrice": "da {price}"
+  },
+  "info": {
+    "heroLabel": "Prima di partire",
+    "heroTitle1": "Tutto quello che",
+    "heroTitle2": "devi sapere",
+    "description": "Visto, assicurazione, voli, clima, salute e consigli pratici per organizzare il tuo viaggio in Mongolia.",
+    "draftNote": "Informazioni indicative, aggiornate al meglio delle nostre conoscenze. Le regole cambiano: ti confermiamo la situazione attuale quando ci scrivi. [Bozza: da verificare dalla cooperativa prima del lancio.]",
+    "cultureLabel": "Cultura e storia",
+    "cultureTitle": "Conoscere la Mongolia",
+    "cultureDescription": "Storia, tradizioni e vita nomade: alcune letture per prepararti al viaggio.",
+    "readMore": "Leggi",
+    "help": "Hai domande specifiche? Scrivici: rispondiamo entro 1–2 giorni lavorativi.",
+    "sections": [
+      {
+        "id": "visa",
+        "title": "Visto e documenti",
+        "items": [
+          "Serve un passaporto in corso di validità, con almeno sei mesi di validità residua e almeno due pagine vuote.",
+          "Il visto si può richiedere online su evisa.mn: servono la scansione del passaporto e una foto tessera in formato digitale, una carta di credito e il nome e il numero di un contatto di emergenza. In passato il costo indicato dalla cooperativa era di circa 50 euro.",
+          "In alternativa si può richiedere il visto all’Ambasciata della Mongolia a Roma (documenti originali, in media 7–10 giorni per il rilascio, con tariffa doppia per le pratiche urgenti).",
+          "Le regole e i costi cambiano spesso: verifica sempre il sito «Viaggiare Sicuri» del Ministero degli Esteri e l’ambasciata prima di partire. Noi ti confermiamo la situazione aggiornata quando ci scrivi."
+        ]
+      },
+      {
+        "id": "insurance",
+        "title": "Assicurazione di viaggio",
+        "items": [
+          "Consigliamo un’assicurazione sanitaria di viaggio, con assistenza medica e rientro sanitario: fuori da Ulaanbaatar gli ospedali sono lontani.",
+          "Tra i nostri viaggiatori molti si sono trovati bene con Heymondo. Verifica sempre che la copertura includa le attività del tuo programma, come equitazione e trekking, e i bagagli.",
+          "Conserva il numero di assistenza della polizza e una copia del contratto con te."
+        ]
+      },
+      {
+        "id": "getting-there",
+        "title": "Come arrivare",
+        "items": [
+          "Si arriva in aereo a Ulaanbaatar (aeroporto internazionale Chinggis Khaan), di solito con uno scalo europeo o asiatico.",
+          "In alternativa c’è il treno: la linea Transmongolica collega Ulaanbaatar con Pechino e con la Transiberiana.",
+          "La differenza di fuso orario con l’Italia è di 6 ore in estate e 7 in inverno; in Mongolia non c’è l’ora legale."
+        ]
+      },
+      {
+        "id": "climate",
+        "title": "Clima e cosa portare",
+        "items": [
+          "Il clima è continentale: estati calde di giorno e fresche di notte, inverni molto freddi. Il periodo migliore è di solito da giugno a settembre; il Naadam si tiene a metà luglio.",
+          "Vestiti a strati: giacca antivento e impermeabile, pile, scarponcini comodi, cappello, occhiali da sole, crema solare.",
+          "Utili: sacco lenzuolo, torcia frontale, power bank, ciabatte per i campi, medicinali personali."
+        ]
+      },
+      {
+        "id": "health",
+        "title": "Salute",
+        "items": [
+          "Parla con il tuo medico o con l’ambulatorio di medicina dei viaggi della tua ASL almeno 4–6 settimane prima della partenza.",
+          "Bevi solo acqua in bottiglia o bollita. Porta con te una scorta dei tuoi medicinali abituali.",
+          "Nelle zone più isolate il soccorso può richiedere tempo: avvisa la guida di qualsiasi problema di salute."
+        ]
+      },
+      {
+        "id": "money",
+        "title": "Soldi e connessione",
+        "items": [
+          "La valuta è il tögrög (MNT). Le carte funzionano a Ulaanbaatar; in campagna serve contante. I bancomat si trovano a Ulaanbaatar e nei capoluoghi di provincia.",
+          "Le schede SIM locali si comprano facilmente in città. La copertura è buona nei centri abitati e scarsa nelle zone remote.",
+          "La corrente è a 230 V con prese di tipo C ed E: di solito basta un adattatore."
+        ]
+      },
+      {
+        "id": "safety",
+        "title": "Sicurezza",
+        "items": [
+          "La Mongolia è in generale un paese sicuro per i viaggiatori. A Ulaanbaatar, nei luoghi affollati, fai attenzione ai borseggiatori.",
+          "Le distanze sono lunghe e le strade spesso sterrate: i tempi di viaggio sono lenti, ma fanno parte dell’avventura.",
+          "Vicino alle gher ci sono cani da guardia: segui sempre le indicazioni della guida."
+        ]
+      }
+    ],
+    "back": "Torna alle info utili",
+    "moreTitle": "Approfondimenti"
+  },
+  "culture": {
+    "metaTitle": "Cultura e storia della Mongolia",
+    "metaDescription": "Storia, tradizioni e vita nomade della Mongolia.",
+    "heroLabel": "Cultura e storia",
+    "heroTitle1": "Conoscere la",
+    "heroTitle2": "Mongolia",
+    "description": "Storia, tradizioni e vita nomade: letture per prepararti al viaggio.",
+    "back": "Tutti gli articoli",
+    "draft": "[Bozza: testo da rivedere e approvare dalla cooperativa.]",
+    "ctaTitle": "Vuoi vederla di persona?",
+    "ctaText": "Scrivici: ti prepariamo un itinerario su misura."
+  },
+  "testimonials": {
+    "label": "Dicono di noi",
+    "title": "Le parole dei viaggiatori",
+    "description": "Recensioni di chi ha viaggiato con noi, pubblicate con il loro consenso."
+  },
+  "embed": {
+    "mapNote": "La mappa è fornita da Google. Viene caricata solo se la mostri: Google può impostare cookie e ricevere il tuo indirizzo IP.",
+    "privacy": "Informativa sulla privacy",
+    "showMap": "Mostra la mappa",
+    "videoNote": "Il video è fornito da YouTube o Vimeo. Viene caricato solo se lo avvii: il fornitore può impostare cookie e ricevere il tuo indirizzo IP.",
+    "showVideo": "Guarda il video"
+  },
+  "blog": {
+    "metaTitle": "Blog e archivio viaggi",
+    "metaDescription": "Notizie, racconti e programmi di viaggio dall’archivio della cooperativa Sain Sanaa.",
+    "heroLabel": "Diario",
+    "heroTitle1": "Dal blog di",
+    "heroTitle2": "Sain Sanaa",
+    "description": "Notizie, racconti e programmi di viaggio dall’archivio della cooperativa.",
+    "filter": {
+      "all": "Tutto",
+      "news": "Notizie",
+      "trips": "Archivio viaggi"
+    },
+    "read": "Leggi",
+    "prev": "Precedente",
+    "next": "Successivo",
+    "empty": "Nessun articolo per ora.",
+    "back": "Tutti gli articoli",
+    "onlyItalian": "Questo articolo è disponibile solo in italiano.",
+    "latestTitle": "Ultime dal blog",
+    "viewAll": "Tutti gli articoli"
+  }
+}

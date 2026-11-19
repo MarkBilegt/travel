@@ -1,0 +1,148 @@
+@import "tailwindcss";
+
+/* ─── Tailwind v4 Theme ──────────────────────────────────────────────────── */
+/* Design system "Editorial Expedition". Token names are kept stable so the
+   whole site re-skins from here; values are placeholders until the client's
+   real brand colours are known.
+     navy  = ink (dark surfaces, body text)
+     cream = sand (warm light surfaces)
+     gold  = ember (primary CTA background, accent text on DARK surfaces)
+     gold-deep = accent text on LIGHT surfaces (WCAG AA on white/sand)
+     blue  = lake (secondary accent)                                         */
+@theme {
+  --color-brand-navy: #0E1A22;
+  --color-brand-ink-soft: #24343D;
+  --color-brand-cream: #F5F0E8;
+  --color-brand-sand: #EAE2D5;
+  --color-brand-line: #E2D9CB;
+  --color-brand-gold: #E2733A;
+  --color-brand-gold-light: #EC8B57;
+  --color-brand-gold-deep: #A84E1F;
+  --color-brand-blue: #1E5B66;
+  --color-brand-mist: #8FA3A8;
+
+  /* Admin palette */
+  --color-admin-bg: #0f1117;
+  --color-admin-sidebar: #141820;
+  --color-admin-card: #1a1f2e;
+  --color-admin-border: #2a3144;
+  --color-admin-accent: #4f7ef7;
+
+  /* Typography (next/font exposes hashed family names via these variables) */
+  --font-sans: var(--font-inter), 'Inter', system-ui, sans-serif;
+  --font-display: var(--font-oswald), 'Oswald', 'Arial Narrow', system-ui, sans-serif;
+  --font-accent: var(--font-cormorant), 'Cormorant Garamond', Georgia, serif;
+
+  --ease-expo: cubic-bezier(0.16, 1, 0.3, 1);
+
+  /* Custom animations */
+  --animate-slide-in: slideIn 0.3s ease-out;
+  --animate-fade-up: fadeUp 0.5s ease-out;
+  --animate-pulse-gold: pulseGold 2s infinite;
+  --animate-accordion-down: accordionDown 0.25s ease-out;
+  --animate-accordion-up: accordionUp 0.25s ease-out;
+}
+
+/* ─── Keyframes ──────────────────────────────────────────────────────────── */
+@keyframes slideIn {
+  from { transform: translateX(100%); opacity: 0; }
+  to   { transform: translateX(0);    opacity: 1; }
+}
+
+@keyframes fadeUp {
+  from { transform: translateY(20px); opacity: 0; }
+  to   { transform: translateY(0);    opacity: 1; }
+}
+
+@keyframes pulseGold {
+  0%, 100% { box-shadow: 0 0 0 0 rgba(226, 115, 58, 0.4); }
+  50%       { box-shadow: 0 0 0 12px rgba(226, 115, 58, 0); }
+}
+
+@keyframes accordionDown {
+  from { height: 0; opacity: 0; }
+  to   { height: var(--radix-accordion-content-height); opacity: 1; }
+}
+
+@keyframes accordionUp {
+  from { height: var(--radix-accordion-content-height); opacity: 1; }
+  to   { height: 0; opacity: 0; }
+}
+
+/* ─── Base ───────────────────────────────────────────────────────────────── */
+@layer base {
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+  }
+
+  html {
+    scroll-behavior: smooth;
+    -webkit-text-size-adjust: 100%;
+  }
+
+  body {
+    background-color: #ffffff;
+    color: var(--color-brand-navy);
+    font-family: var(--font-sans);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    line-height: 1.6;
+  }
+
+  /* Display face for page/section headings everywhere. Utilities still win. */
+  h1,
+  h2 {
+    font-family: var(--font-display);
+    font-weight: 700;
+    letter-spacing: -0.01em;
+    text-wrap: balance;
+  }
+
+  :focus-visible {
+    outline: 2px solid var(--color-brand-gold);
+    outline-offset: 3px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+}
+
+/* ─── Typography Utilities ───────────────────────────────────────────────── */
+.text-display {
+  font-family: var(--font-display);
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+  line-height: 0.95;
+}
+
+.text-label {
+  font-size: 0.7rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.18em;
+}
+
+/* ─── Scrollbar ──────────────────────────────────────────────────────────── */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: var(--color-brand-cream);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--color-brand-mist);
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-brand-navy);
+}
+
+/* ─── Selection ──────────────────────────────────────────────────────────── */
+::selection {
+  background-color: var(--color-brand-gold);
+  color: var(--color-brand-navy);
+}
